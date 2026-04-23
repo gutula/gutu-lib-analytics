@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-analytics",
   "packageId": "analytics",
   "displayName": "Analytics",
+  "packageCount": 1,
   "group": "Core Data And Query",
   "maturity": "Hardened",
   "description": "Metrics, marts, and analytics helper layer.",

@@ -6,11 +6,11 @@
     "framework/libraries/*"
   ],
   "scripts": {
-    "build": "bun --cwd framework/libraries/analytics run build",
-    "typecheck": "bun --cwd framework/libraries/analytics run typecheck",
-    "lint": "bun --cwd framework/libraries/analytics run lint",
-    "test": "bun --cwd framework/libraries/analytics run test",
-    "test:unit": "bun --cwd framework/libraries/analytics run test:unit",
+    "build": "bun run --cwd framework/libraries/analytics build",
+    "typecheck": "bun run --cwd framework/libraries/analytics typecheck",
+    "lint": "bun run --cwd framework/libraries/analytics lint",
+    "test": "bun run --cwd framework/libraries/analytics test",
+    "test:unit": "bun run --cwd framework/libraries/analytics test:unit",
     "docs:summary": "node scripts/docs-summary.mjs",
     "docs:check": "node scripts/docs-check.mjs"
   }

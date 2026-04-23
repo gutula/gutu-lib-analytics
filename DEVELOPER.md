@@ -35,6 +35,7 @@ Provides shared analytics helpers and typed telemetry-friendly patterns for pack
 | Package ID | `analytics` |
 | Display Name | Analytics |
 | Import Name | `@platform/analytics` |
+| Canonical Namespace Target | `@gutu/analytics` |
 | Version | `0.1.0` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
@@ -48,6 +49,7 @@ Provides shared analytics helpers and typed telemetry-friendly patterns for pack
 | Dev Dependencies | None |
 | React Runtime | No |
 | Workspace Scoped | No |
+| Legacy Compatibility IDs | `@platform/analytics` |
 
 ### Dependency interpretation
 
